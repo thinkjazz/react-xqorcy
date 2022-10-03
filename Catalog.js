@@ -2,6 +2,7 @@ import React from 'react';
 import Mentor from './Components/Mentor';
 import Pagi from './Components/Pagi';
 import SearchForm from './Components/SearchForm';
+import SearchExt from './Components/SearchExt';
 import 'antd/dist/antd.css';
 import './index.css';
 import { Layout, Card, Space, Row, Col } from 'antd';
@@ -12,10 +13,12 @@ const App = () => (
   <>
     <div></div>
     <Layout>
-      <Header>
-        <SearchForm />
-      </Header>
+      <Header></Header>
       <Content>
+        <SearchForm />
+        <Card>
+          <SearchExt />
+        </Card>
         <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
           <Mentor />
 
