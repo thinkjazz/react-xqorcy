@@ -9,7 +9,7 @@ const Pagi = () => {
     setCurrent(page);
   };
 
-  return <Pagination current={current} onChange={onChange} total={80} />;
+  return <Pagination current={current} onChange={onChange} total={50} />;
 };
 
 export default Pagi;

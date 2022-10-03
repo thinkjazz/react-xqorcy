@@ -13,19 +13,33 @@ const App = () => (
   <>
     <div></div>
     <Layout>
-      <Header></Header>
-      <Content>
-        <SearchForm />
-        <Card>
-          <SearchExt />
-        </Card>
-        <Space direction="vertical" size="middle" style={{ display: 'flex' }}>
-          <Mentor />
+      <Header>
+        <Row align="middle" justify="center">
+          <Col span={24}>
+            <Card>
+              <SearchForm />
 
-          <Mentor />
-          <Mentor />
-          <Mentor />
-        </Space>
+              <SearchExt />
+            </Card>
+          </Col>
+        </Row>
+      </Header>
+      <Content>
+        <Row align="middle" justify="center">
+          <Col span={24}>
+            <Space
+              direction="vertical"
+              size="middle"
+              style={{ display: 'flex' }}
+            >
+              <Mentor />
+
+              <Mentor />
+              <Mentor />
+              <Mentor />
+            </Space>
+          </Col>
+        </Row>
       </Content>
       <Footer>
         <Row align="middle" justify="center">

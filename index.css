@@ -11,6 +11,13 @@
   background: #ececec;
   height: auto;
 }
+.ant-card-bordered {
+  -webkit-box-shadow: 0px 5px 13px -7px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 13px -7px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 13px -7px rgba(34, 60, 80, 0.2);
+  border-radius: 0px;
+  border: 2px solid rgba(23, 26, 31, 0.1);
+}
 
 .ant-layout-footer {
   color: #fff;
